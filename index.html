@@ -175,10 +175,10 @@
       </a>
     
       <a 
-        href="/tags" 
+        href="/categories" 
         class="navbar-menu-item">
         
-          标签
+          分类
         
       </a>
     
@@ -253,13 +253,13 @@
   <a 
     class="author-categories-count" 
     href="/categories">
-    <span>0</span>
+    <span>1</span>
     <span>分类</span>
   </a>
   <a 
     class="author-tags-count" 
     href="/tags">
-    <span>0</span>
+    <span>1</span>
     <span>标签</span>
   </a>
 </div>
@@ -279,6 +279,13 @@
   </div>
   <div class="categories-list">
     
+      <a href="/categories/%E7%A8%B3%E5%AE%9A/">
+        <div class="categories-list-item">
+          稳定
+          <span class="categories-list-item-badge">1</span>
+        </div>
+      </a>
+    
   </div>
 </div>
   </article>
@@ -292,6 +299,12 @@
     </i>热门标签
   </div>
   <div class="tags-list">
+    
+      <a 
+        href="/tags/%E7%82%B9%E8%B5%9E/" 
+        title="点赞">
+        <div class="tags-list-item">点赞</div>
+      </a>
     
   </div>
 </div>
@@ -334,6 +347,18 @@
               
   <div class="card">
     
+      <a 
+        href="/2024/12/18/hello-world/" 
+        class="image-wrapper" 
+        aria-label="thumbnail">
+        <img 
+          src="/img/xk.jpg" 
+          data-src="/img/xk.jpg"
+          alt="你好，世界 banner"
+          srcset="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%20300%20300&#39;%3E%3C/svg%3E"
+          class="image lozad">
+      </a>
+    
     <article class="card card-content">
       <a href="/2024/12/18/hello-world/">
         <h1 class="post-title">
@@ -342,7 +367,7 @@
       </a>
       <div class="card-excerpt">
         
-          Welcome to Hexo! This is your very first post. Check 
+          你好，世界！
         
       </div>
       <div class="card-post-footer">
@@ -354,6 +379,20 @@
             </i>
             <span>2024-12-18</span>
           </time>
+          
+            
+            
+              
+            
+            <span class="dot"></span>
+            
+              
+              <a 
+                href="/categories/%E7%A8%B3%E5%AE%9A/" 
+                class="post-meta-link">
+                稳定
+              </a>
+            
           
         </div>
         <a href="/2024/12/18/hello-world/">继续阅读 </a>
@@ -452,6 +491,19 @@
     
     
     
+      <div class="footer-dsc">
+        
+          本站总访问量<span id="busuanzi_value_site_pv"></span>次
+        
+        
+          <span>&nbsp;|&nbsp;</span>
+        
+        
+          本站总访客数<span id="busuanzi_value_site_uv"></span>次
+        
+      </div>
+      
+    
 </footer>
  
     
@@ -496,6 +548,10 @@
      
      
     <script src="/js/main.js"></script> 
+    
+      <script> 
+        loadScript('/js/lib/busuanzi.min.js') 
+      </script>
      
     
       <script>
